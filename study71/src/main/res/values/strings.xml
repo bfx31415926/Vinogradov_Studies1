@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">study71</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_pref">PrefActivity</string>
+</resources>
