@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MenuSimple</string>
+    <string name="text_for_textview">Hello World, MainActivity!</string>
+</resources>
