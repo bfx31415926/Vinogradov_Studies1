@@ -9,17 +9,15 @@
 */
 
 package com.example.study45;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     // названия компаний (групп)
     String[] groups = new String[] {"HTC", "Samsung", "LG"};
@@ -60,7 +58,7 @@ public class MainActivity extends Activity {
             m.put("groupStates", groupStates[i]); // статус компании
             groupData.add(m);
         }
-
+        int k = android.R.id.text1;
         // список атрибутов групп для чтения
         String groupFrom[] = new String[] {"groupName", "groupStates"};
         int groupTo[] = new int[] {R.id.text1, R.id.text2};
